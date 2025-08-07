@@ -1,0 +1,40 @@
+{
+  "services": [
+    { "id": 1, "name": "Authentication API" },
+    { "id": 2, "name": "Contacts API" },
+    { "id": 3, "name": "Notification Service" },
+    { "id": 4, "name": "User Management Service" },
+    { "id": 5, "name": "Payment Gateway" },
+    { "id": 6, "name": "Reporting API" },
+    { "id": 7, "name": "Search Service" },
+    { "id": 8, "name": "Email Delivery API" },
+    { "id": 9, "name": "File Storage Service" },
+    { "id": 10, "name": "Analytics API" },
+    { "id": 11, "name": "SMS Gateway" },
+    { "id": 12, "name": "Push Notification Service" },
+    { "id": 13, "name": "Billing Service" },
+    { "id": 14, "name": "Audit Logging API" }
+  ],
+  "statuses": [
+    { "serviceId": 1, "status": 1 },
+    { "serviceId": 2, "status": 1 },
+    { "serviceId": 3, "status": 1 },
+    { "serviceId": 4, "status": 1 },
+    { "serviceId": 5, "status": 2 },
+    { "serviceId": 6, "status": 3 },
+    { "serviceId": 7, "status": 3 },
+    { "serviceId": 8, "status": 3 },
+    { "serviceId": 9, "status": 0 },
+    { "serviceId": 10, "status": 0 },
+    { "serviceId": 11, "status": 2 },
+    { "serviceId": 12, "status": 1 },
+    { "serviceId": 13, "status": 0 },
+    { "serviceId": 14, "status": 0 }
+  ],
+  "statusCodes": {
+    "0": "online",
+    "1": "degraded",
+    "2": "offline",
+    "3": "maintenance"
+  }
+}
